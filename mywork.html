@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <title> my portfolio </title>
+      <!-- font -->
+      <link rel="stylesheet" href="mystyle4.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+      <!-- icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/logo5.png"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-close" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="mywork.html">My work</a></li>
+              <li><a href="aboutme.html">About me</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1> My Work</h1>
+    </section>
+
+<!--- my work part 2 ---->
+<section class="photos">
+  <h1>Photos</h1>
+
+  <div class="row">
+      <div class="photos-col">
+          <a href="image1.html"><img src="images/1.jpg" alt="billede"></a>
+          <h3>Town, Germany, 2019</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image2.html"><img src="images/2.jpg" alt="billede"></a>
+          <h3>Black forest, Germany, 2019</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image3.html"><img src="images/5.jpg" alt="billede"></a>
+          <h3>Black forest, Germany, 2019</h3>
+      </div>
+  </div>
+  <div class="row">
+      <div class="photos-col">
+          <a href="image4.html"><img src="images/6.jpg" alt="billede"></a>
+          <h3>Product photo, Denmark, 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image5.html"><img src="images/7.jpg" alt="billede"></a>
+          <h3>Product photo, Denmark, 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image6.html"><img src="images/4.jpg" alt="billede"></a>
+          <h3>Notes, Denmark, 2021</h3>
+      </div>
+  </div>
+</section>
+
+<section class="photos">
+  <h1>Illustrations and Animations</h1>
+
+  <div class="row">
+      <div class="photos-col">
+          <a href="image7.html"><img src="images/pentool.jpg" alt="billede"></a>
+          <h3>Illustrated self-portrait, 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image8.html"><img src="images/selfportrait.gif" alt="billede"></a>
+          <h3>Animated self-portrait, 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image9.html"><div class="sprite"></div></a>
+          <h3>Animated mushroom, 2021</h3>
+      </div>
+  </div>
+</section>
+
+<section class="photos">
+  <h1>Apps and Websites</h1>
+
+  <div class="row">
+      <div class="photos-col">
+          <a href="image10.html"><img src="images/foodapp.jpg" alt="foodapp"></a>
+          <h3>Food App design,"Nem Mad", 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image11.html"><img src="images/datingapp.jpg" alt="datingapp"></a>
+          <h3>Dating App design,"LifePartner", 2021</h3>
+      </div>
+      <div class="photos-col">
+          <a href="image12.html"><img src="images/website.jpg" alt="website"></a>
+          <h3>Pizzaria web design,"Milano Pizzaria", 2021</h3>
+      </div>
+      </div>
+      </div>
+  </div>
+</section>
+
+<footer>
+  <hr>
+    <div class="icons">
+      <i class="fa fa-phone"></i> +45 30 26 39 52 &nbsp;&nbsp;
+      <i class="fa fa-envelope"></i>&nbsp;majatakatomi@gmail.com
+      <a href="https://www.instagram.com/mtakatomi/"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/maja-takatomi-756288228/"<i class="fa fa-linkedin"></i></a>
+
+    </div>
+    <p>&copy; 2021 Maja Takatomi All Rights Reserved</p>
+</footer>
+
+
+<!-- javascript -->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu(){
+        navlinks.style.right= "0";
+      }
+      function hidemenu(){
+        navlinks.style.right= "-200px";
+      }
+    </script>
+
+    </body>
+</html>

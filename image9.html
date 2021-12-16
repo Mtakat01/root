@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>image9</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+    <style>
+      body{
+        background: black;
+      }
+      .image{
+        display: flex;
+        justify-content: center;
+      }
+      .sprite{
+        width: 500px;
+        height: 500px;
+        background: url('images/svamp.png') 0 0 no-repeat;
+        animation: play 2s steps(20) infinite;
+      }
+
+      @keyframes play{
+        0% {background-position: 0px;}
+        100% {background-position: -10000px;}
+      }
+
+      h1{
+        color: grey;
+        font-family: poppins;
+        display: flex;
+        justify-content: center;
+      }
+      @media only screen and (max-width: 780px) {
+        img {
+        width: 100%;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Mushroom animation by Maja Takatomi</h1>
+    <div class="image">
+        <div class="sprite">
+    </div>
+
+  </body>
+</html>

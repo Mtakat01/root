@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="with=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <title> my portfolio </title>
+      <!-- font -->
+      <link rel="stylesheet" href="mystyle4.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;1,200&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comforter&display=swap" rel="stylesheet">
+      <!-- icons -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+      <section class="sub-header">
+        <nav>
+          <a href="index.html"><img src="images/logo5.png"></a>
+          <div class="nav-links" id="navlinks">
+            <i class="fa fa-close" onclick="hidemenu()"></i>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="mywork.html">My work</a></li>
+              <li><a href="aboutme.html">About me</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1> About Me</h1>
+    </section>
+
+<!--- about me ---->
+
+    <section class="about-me">
+      <div class="row">
+        <div class="about-col">
+          <h1> About me </h1>
+          <p>
+            I am a passionate web designer and content creator.<br>
+            I love to create aesthetic content that can help<br>
+            business' flourish.<br>
+            As a person I am empathetic, curious, open-minded<br>
+            and caring. What I do, is important to who I am.<br>
+            Therefore, my vision is to work for sustainable companies<br>
+            who focuses on social, ecological, economic, and cultural<br>
+            sustainability.<br>
+            My interest in creating content lies mostly in photography<br>
+            and illustration work. Throughout my education I am<br>
+            working to develop my abilities and skills within Adobe<br>
+            programs. And find myself drawn to Photoshop<br>
+            illustrator and InDesign, but nevertheless put my<br>
+            energy into developing stronger skills within several<br>
+            design skills.<br>
+            This way I hope to do my part in creating a better<br>
+            environment for people and for nature.<br>
+          </p>
+        </div>
+        <div class="about-col">
+          <img src="images/portrait.jpg";>
+        </div>
+      </div>
+
+
+      <!-- my skills -->
+
+      <section class="skills">
+        <h1>My Skills</h1>
+
+        <div class="row">
+          <div class="skills-col">
+            <h3>Adobe programs</h3>
+            <p>
+              Illustrator<br>
+              Photoshop <br>
+              Adobe Animate<br>
+              Adobe XD<br>
+              InDesign<br>
+              Premiere Pro
+            </p>
+          </div>
+          <div class="skills-col">
+            <h3>Creative Skills</h3>
+            <p>
+              Photography <br>
+              Illustrations <br>
+              Painting & drawing <br>
+            </p>
+          </div>
+        </div>
+      </section>
+
+
+      <footer>
+        <hr>
+          <div class="icons">
+            <i class="fa fa-phone"></i> +45 30 26 39 52 &nbsp;&nbsp;
+            <i class="fa fa-envelope"></i>&nbsp;majatakatomi@gmail.com
+            <a href="https://www.instagram.com/mtakatomi/">"<i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/maja-takatomi-756288228/"<i class="fa fa-linkedin"></i></a>
+
+          </div>
+          <p>&copy; 2021 Maja Takatomi All Rights Reserved</p>
+      </footer>
+
+<!-- javascript -->
+    <script>
+      var navlinks = document.getElementById("navlinks");
+      function showmenu(){
+        navlinks.style.right= "0";
+      }
+      function hidemenu(){
+        navlinks.style.right= "-200px";
+      }
+    </script>
+
+    </body>
+</html>
